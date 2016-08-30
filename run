@@ -1,0 +1,3 @@
+#!/bin/bash
+mvn clean compile -Dmaven.test.skip=true
+mvn exec:java -Dexec.mainClass='com.sishuok.Application' -Dmaven.test.skip=true -Dsystem=job
